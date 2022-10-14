@@ -1,24 +1,27 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
         },
         {
-            "command": {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -29,50 +32,58 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{17da3cac-b318-431e-8a3e-7fcdefe6d114}",
-    "profiles": {
-        "defaults": {
-            "padding": "0, 0, 0, 0",
-            "scrollbarState": "hidden",
-            "font": {
+    "disabledProfileSources": 
+    [
+        "Windows.Terminal.Wsl",
+        "Windows.Terminal.Azure",
+        "Windows.Terminal.PowershellCore",
+        "Windows.Terminal.VisualStudio"
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "font": 
+            {
                 "face": "FiraMono NF",
                 "size": 11
-            }
+            },
+            "padding": "0, 0, 0, 0",
+            "scrollbarState": "hidden"
         },
-        "list": [
+        "list": 
+        [
             {
-                "guid": "{17da3cac-b318-431e-8a3e-7fcdefe6d114}",
-                "name": "MINGW64",
                 "commandline": "C:/msys64/msys2_shell.cmd -defterm -here -no-start -mingw64 -use-full-path",
-                "icon": "C:/msys64/mingw64.ico"
+                "guid": "{17da3cac-b318-431e-8a3e-7fcdefe6d114}",
+                "icon": "C:/msys64/mingw64.ico",
+                "name": "MINGW64"
             },
             {
-                "guid": "{71160544-14d8-4194-af25-d05feeac7233}",
-                "name": "MSYS",
                 "commandline": "C:/msys64/msys2_shell.cmd -defterm -here -no-start -msys -use-full-path",
-                "icon": "C:/msys64/msys2.ico"
+                "guid": "{71160544-14d8-4194-af25-d05feeac7233}",
+                "icon": "C:/msys64/msys2.ico",
+                "name": "MSYS"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt",
-                "icon": "%SystemRoot%\\System32\\cmd.exe"
+                "icon": "%SystemRoot%\\System32\\cmd.exe",
+                "name": "Command Prompt"
             },
             {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe /k \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat\"",
                 "guid": "{cc74f100-641f-5ce6-8f96-4e6b207fb913}",
-                "hidden": false,
-                "name": "Developer Command Prompt for Visual Studio",
-                "source": "Windows.Terminal.VisualStudio"
+                "name": "Developer Command Prompt for Visual Studio"
             },
             {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell"
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
