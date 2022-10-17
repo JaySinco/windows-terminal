@@ -29,6 +29,7 @@
             "keys": "alt+shift+d"
         }
     ],
+    "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{17da3cac-b318-431e-8a3e-7fcdefe6d114}",
@@ -39,6 +40,8 @@
         "Windows.Terminal.PowershellCore",
         "Windows.Terminal.VisualStudio"
     ],
+    "initialCols": 128,
+    "initialRows": 30,
     "profiles": 
     {
         "defaults": 
@@ -291,5 +294,6 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ]
+    ],
+    "windowingBehavior": "useAnyExisting"
 }
