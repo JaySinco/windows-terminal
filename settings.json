@@ -75,6 +75,13 @@
                 "name": "Command Prompt"
             },
             {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{ad7bac4f-076f-4fd9-bef6-771c05bbdba8}",
+                "icon": "%SystemRoot%\\System32\\cmd.exe",
+                "name": "Command Prompt (Admin)",
+                "elevate": true
+            },
+            {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe /k \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat\"",
                 "guid": "{cc74f100-641f-5ce6-8f96-4e6b207fb913}",
                 "name": "Developer Command Prompt for Visual Studio"
