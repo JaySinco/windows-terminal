@@ -51,7 +51,7 @@
                 "face": "FiraMono Nerd Font",
                 "size": 11
             },
-            "padding": "0, 0, 0, 0",
+            "padding": "5, 0, 0, 0",
             "scrollbarState": "hidden"
         },
         "list": 
