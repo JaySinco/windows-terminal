@@ -49,7 +49,7 @@
             "font": 
             {
                 "face": "FiraMono Nerd Font",
-                "size": 11
+                "size": 10.8
             },
             "padding": "5, 0, 0, 0",
             "scrollbarState": "hidden"
@@ -76,10 +76,10 @@
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "elevate": true,
                 "guid": "{ad7bac4f-076f-4fd9-bef6-771c05bbdba8}",
                 "icon": "%SystemRoot%\\System32\\cmd.exe",
-                "name": "Command Prompt (Admin)",
-                "elevate": true
+                "name": "Command Prompt (Admin)"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe /k \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat\"",
@@ -302,5 +302,6 @@
             "yellow": "#808000"
         }
     ],
+    "themes": [],
     "windowingBehavior": "useAnyExisting"
 }
