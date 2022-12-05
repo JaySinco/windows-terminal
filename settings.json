@@ -40,8 +40,8 @@
         "Windows.Terminal.PowershellCore",
         "Windows.Terminal.VisualStudio"
     ],
-    "initialCols": 128,
-    "initialRows": 30,
+    "initialCols": 150,
+    "initialRows": 40,
     "profiles": 
     {
         "defaults": 
