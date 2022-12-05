@@ -40,7 +40,8 @@
                 "size": 10.7
             },
             "padding": "0, 0, 0, 0",
-            "scrollbarState": "hidden"
+            "scrollbarState": "hidden",
+            "startingDirectory": "%USERPROFILE%/Documents"
         },
         "list": 
         [
