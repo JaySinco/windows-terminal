@@ -28,7 +28,7 @@
         "Windows.Terminal.PowershellCore",
         "Windows.Terminal.VisualStudio"
     ],
-    "initialCols": 150,
+    "initialCols": 135,
     "initialRows": 40,
     "profiles": 
     {
@@ -36,8 +36,8 @@
         {
             "font": 
             {
-                "face": "FiraMono Nerd Font",
-                "size": 10.7
+                "face": "Hack Nerd Font Mono",
+                "size": 10
             },
             "padding": "0, 0, 0, 0",
             "scrollbarState": "hidden",
@@ -291,6 +291,5 @@
             "yellow": "#808000"
         }
     ],
-    "themes": [],
     "windowingBehavior": "useAnyExisting"
 }
